@@ -1,6 +1,19 @@
 #include<iostream>
 using namespace std;
 
+#define size 10
+
+// Declare a stack class for characters
+class strack{
+    char stck[size]; //Holds the stack
+    int tos; // index of top of stack
+
+public:
+    void init(); // initialize stack
+    void push(char ch); // push character on stack
+    char pop(); // pop cahracter from stack
+};
+
 
 int main()
 {
