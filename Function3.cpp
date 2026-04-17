@@ -31,6 +31,16 @@ void strack::push(char ch)
     tos++;
 }
 
+// Pop a character
+char strack::pop()
+{
+    if(tos=0){
+        cout << "stack is empty";
+        return 0; // return null on empty stack
+    }
+    tos--;
+    return stck[tos];
+}
 
 int main()
 {
