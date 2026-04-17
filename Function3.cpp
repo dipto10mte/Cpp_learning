@@ -14,6 +14,23 @@ public:
     char pop(); // pop cahracter from stack
 };
 
+// initialize the stack
+void strack::init()
+{
+    tos=0;
+}
+
+// push a character
+void strack::push(char ch)
+{
+    if(tos==size){
+        cout << "Stack is full";
+        return;
+    }
+    stck[tos]=ch;
+    tos++;
+}
+
 
 int main()
 {
