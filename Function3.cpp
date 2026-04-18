@@ -4,7 +4,7 @@ using namespace std;
 #define size 10
 
 // Declare a stack class for characters
-class strack{
+class stack{
     char stck[size]; //Holds the stack
     int tos; // index of top of stack
 
@@ -15,36 +15,16 @@ public:
 };
 
 // initialize the stack
-void strack::init()
+void stack::init()
 {
     tos=0;
 }
 
 // push a character
-void strack::push(char ch)
-{
-    if(tos==size){
-        cout << "Stack is full";
-        return;
-    }
-    stck[tos]=ch;
-    tos++;
-}
-
-// Pop a character
-char strack::pop()
-{
-    if(tos=0){
-        cout << "stack is empty";
-        return 0; // return null on empty stack
-    }
-    tos--;
-    return stck[tos];
-}
 
 int main()
 {
-    strack s1,s2; // create two stacks
+    stack s1,s2; // create two stacks
     int i;
     // initialize the stacks
     s1.init();
