@@ -24,7 +24,7 @@ void stack::init()
 void stack::push(char ch)
 {
     if(tos==size){
-        cout << "Stack is full"
+        cout << "Stack is full";
         return;
     }
     stck[tos]=ch;
