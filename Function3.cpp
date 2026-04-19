@@ -11,13 +11,13 @@ class stack{
 public:
     void init(); // initialize stack
     void push(char ch); // push character on stack
-    char pop(); // pop cahracter from stack
+    char pop(); // pop character from stack
 };
 
 // initialize the stack
 void stack::init()
 {
-    tos=0
+    tos=0;
 }
 
 // push a character
