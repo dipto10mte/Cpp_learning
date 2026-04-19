@@ -17,14 +17,14 @@ public:
 // initialize the stack
 void stack::init()
 {
-    tos=0;
+    tos=0
 }
 
 // push a character
 void stack::push(char ch)
 {
     if(tos==size){
-        cout << "Stack is full";
+        cout << "Stack is full"
         return;
     }
     stck[tos]=ch;
@@ -35,7 +35,7 @@ void stack::push(char ch)
 char stack::pop()
 {
     if(tos==0){
-        cout << "stack is empty";
+        cout << "stack is empty"
         return 0; // return null on empty stack
     }
     tos--;
