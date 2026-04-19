@@ -35,7 +35,7 @@ void stack::push(char ch)
 char stack::pop()
 {
     if(tos==0){
-        cout << "stack is empty"
+        cout << "stack is empty";
         return 0; // return null on empty stack
     }
     tos--;
