@@ -20,7 +20,16 @@ void stack::init()
     tos=0;
 }
 
-
+// push a character
+void stack::push(char ch)
+{
+    if(tos==size){
+        cout << "Stack is full";
+        return;
+    }
+    stck[tos]=ch;
+    tos++;
+}
 
 // Pop a character
 char stack::pop()
