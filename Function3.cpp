@@ -22,6 +22,17 @@ void stack::init()
 
 
 
+// Pop a character
+char stack::pop()
+{
+    if(tos==0){
+        cout << "stack is empty";
+        return 0; // return null on empty stack
+    }
+    tos--;
+    return stck[tos];
+}
+
 int main()
 {
     stack s1,s2; // create two stacks
