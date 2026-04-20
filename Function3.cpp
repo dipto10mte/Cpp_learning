@@ -15,32 +15,6 @@ public:
 };
 
 // initialize the stack
-void stack::init()
-{
-    tos=0;
-}
-
-// push a character
-void stack::push(char ch)
-{
-    if(tos==size){
-        cout << "Stack is full";
-        return;
-    }
-    stck[tos]=ch;
-    tos++;
-}
-
-// Pop a character
-char stack::pop()
-{
-    if(tos==0){
-        cout << "stack is empty";
-        return 0; // return null on empty stack
-    }
-    tos--;
-    return stck[tos];
-}
 
 int main()
 {
