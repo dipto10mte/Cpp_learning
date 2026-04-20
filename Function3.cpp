@@ -15,6 +15,12 @@ public:
 };
 
 // initialize the stack
+void stack::init()
+{
+    tos=0;
+}
+
+
 
 int main()
 {
