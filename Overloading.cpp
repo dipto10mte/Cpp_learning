@@ -16,4 +16,10 @@ int main()
 }
 
 // myAbs() for ints
+int myAbs(int n)
+{
+    cout << "In integer myAbs()\n";
+    return n<0? -n:n;
+}
+
 
