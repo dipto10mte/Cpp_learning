@@ -22,4 +22,11 @@ int myAbs(int n)
     return n<0? -n:n;
 }
 
+// myAbs for longs
+long myAbs(long n)
+{
+    cout << "In long myAbs()\n";
+    return n<0? -n:n;
+}
+
 
