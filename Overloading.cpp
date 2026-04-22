@@ -29,4 +29,9 @@ long myAbs(long n)
     return n<0? -n:n;
 }
 
-
+// myAbs for double
+double myAbs(double n)
+{
+    cout << "In double myAbs()\n";
+    return n<0? -n:n;
+}
