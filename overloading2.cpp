@@ -12,3 +12,9 @@ int main()
     return 0;
 }
 
+// date as a string
+void date(char *date)
+{
+    cout << "Date: " << date << "\n";
+}
+
