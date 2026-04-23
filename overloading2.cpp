@@ -18,3 +18,9 @@ void date(char *date)
     cout << "Date: " << date << "\n";
 }
 
+// date as integers
+void date(int month, int day, int year)
+{
+    cout << "Date: " << month << "/";
+    cout << day << "/" << year << "\n";
+}
