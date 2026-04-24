@@ -12,4 +12,9 @@ int main()
     return 0;
 }
 
+void f1(int a)
+{
+    cout << "In f1(int a)\n";
+}
+
 
