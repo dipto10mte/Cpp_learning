@@ -17,4 +17,7 @@ void f1(int a)
     cout << "In f1(int a)\n";
 }
 
-
+void f1(int a,int b)
+{
+    cout << "In f1(int a,int b)\n";
+}
