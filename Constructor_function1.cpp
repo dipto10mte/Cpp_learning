@@ -8,4 +8,9 @@ public:
     void show();
 };
 
+myclass::myclass()
+{
+    cout << "In constructor\n";
+    a=10;
+}
 
