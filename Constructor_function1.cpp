@@ -14,3 +14,9 @@ myclass::myclass()
     a=10;
 }
 
+void myclass::show()
+{
+    cout << a;
+}
+
+
