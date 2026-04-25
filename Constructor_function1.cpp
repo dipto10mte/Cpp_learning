@@ -19,4 +19,9 @@ void myclass::show()
     cout << a;
 }
 
-
+int main()
+{
+    myclass ob;
+    ob.show();
+    return 0;
+}
