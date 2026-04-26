@@ -9,4 +9,14 @@ public:
     void show();
 };
 
+myclass::myclass()
+{
+    cout << "In constructor\n";
+    a=10;
+}
+myclass::myclass()
+{
+    cout<< "Destructing....\n";
+}
+
 
