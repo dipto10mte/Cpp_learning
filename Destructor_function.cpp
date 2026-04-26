@@ -24,3 +24,9 @@ void myclass::show()
     cout << a << "\n";
 }
 
+int main()
+{
+    myclass ob;
+    ob.show();
+    return 0;
+}
