@@ -19,4 +19,8 @@ myclass::myclass()
     cout<< "Destructing....\n";
 }
 
+void myclass::show()
+{
+    cout << a << "\n";
+}
 
