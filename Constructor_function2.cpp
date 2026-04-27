@@ -15,3 +15,23 @@ public:
 
 return 0;
 }
+
+// initialize the stack
+stack::stack()
+{
+    cout << "Constructing a stack\n";
+    tos = 0;
+}
+
+// push a character
+void stack::push(char ch)
+{
+    if(tos==size){
+        cout << "Stack is full\n";
+        return;
+    }
+    stck[tos]=ch;
+    tos++;
+}
+
+
