@@ -35,3 +35,15 @@ void stack::push(char ch)
 }
 
 
+// pop a character
+char stack::pop()
+{
+    if(tos==0){
+        cout << "Stack is empty";
+        return 0; //return null on empty stack
+    }
+    tos--;
+    return stck[tos];
+}
+
+
