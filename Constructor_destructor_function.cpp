@@ -34,3 +34,14 @@ strtype::~strtype()
     free(p);
 }
 
+void strtype::set(char *ptr)
+{
+    if(strlen(p)>>size){
+        cout << "String too big";
+        return;
+    }
+    strcpy(p,ptr);
+    len=strlen(p);
+}
+
+
