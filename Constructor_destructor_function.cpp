@@ -50,3 +50,15 @@ void strtype::show()
     cout << "\n";
 }
 
+int main()
+{
+    strtype s1,s2;
+
+    s1.set("This is a test.");
+    s2.set("I like C++.");
+
+    s1.show();
+    s2.show();
+
+    return 0;
+}
