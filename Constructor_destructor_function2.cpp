@@ -9,3 +9,8 @@ public:
     ~timer(); // destructor
 };
 
+timer::timer()
+{
+    start=clock();
+}
+
