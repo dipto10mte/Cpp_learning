@@ -22,3 +22,14 @@ timer::~timer()
     cout << "Elapsed time: " << (end-start)/CLOCKS_PER_SEC << "\n";
 }
 
+int main()
+{
+    timer ob;
+    char c;
+
+    //delay...
+    cout << "Press a key followed by ENTER: ";
+    cin >> c;
+
+    return 0;
+}
