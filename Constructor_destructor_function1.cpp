@@ -44,4 +44,10 @@ void strtype::set(char *ptr)
     len=strlen(p);
 }
 
+void strtype::show()
+{
+    cout << p << " - length: " << len;
+    cout << "\n";
+}
+
 
